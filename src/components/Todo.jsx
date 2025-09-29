@@ -47,11 +47,11 @@ export default function Todo() {
       <div className="mb-6">
         <h1 className="text-lg font-semibold text-blue-800 mb-6">Add Task</h1>
         <div className="flex rounded-xl overflow-hidden">
-        <input value={newTodo} 
-          onChange={(e) => setNewTodo(e.target.value)} 
-          className="text-blue-800 flex-1 p-4 py-3 bg-white/50 backdrop-blur-sm focus:outline-none border-r border-white/30" placeholder="Enter new task..." type="text"
-          onKeyPress={(e) => e.key === 'Enter' && addTodo()}
-        />
+          <input value={newTodo} 
+            onChange={(e) => setNewTodo(e.target.value)} 
+            className="text-blue-800 flex-1 p-4 py-3 bg-white/50 backdrop-blur-sm focus:outline-none border-r border-white/30" placeholder="Enter new task..." type="text"
+            onKeyPress={(e) => e.key === 'Enter' && addTodo()}
+          />
         <button className="bg-blue-500/80 hover:bg-blue-700/80 text-white px-4 py-3 backdrop-blur-sm transition flex items-center justify-center" onClick={addTodo}>
           <FaPlus />
         </button>
