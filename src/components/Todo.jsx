@@ -39,7 +39,7 @@ export default function Todo() {
 
   return (
     <div className="bg-white/30 place-self-center w-11/12 max-w-md flex flex-col p-3 md:p-7 rounded-xl backdrop-blur-xl border border-white/20 shadow-lg shadow-sky-300/50">
-      <div className="mb-6 bg-gradient-to-r from-blue-500/80 to-blue-900/80 p-4 rounded-xl backdrop-blur-sm border">
+      <div className="mb-6 bg-gradient-to-r from-blue-500/80 to-blue-900/80 p-4 rounded-xl backdrop-blur-sm">
         <h1 className="font-bold text-2xl">Todo's List V1</h1>
       </div>
 
