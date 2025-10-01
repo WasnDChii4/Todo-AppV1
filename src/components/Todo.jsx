@@ -65,7 +65,7 @@ export default function Todo() {
             <div key={todo.id} className="p-4 rounded-xl bg-white/40 backdrop-blur-sm border border-white/30">
               <div className="flex justify-between items-start">
                 <div className="flex items-start space-x-3">
-                  <button className={`${todo.completed ? 'bg-blue-500/80 text-white':'bg-white/50'} mt-1 p-2 rounded-lg backdrop-blur-sm border border-white/30`} onClick={() => completedTodo(todo.id)}>
+                  <button className={`${todo.completed ? 'bg-blue-500/80 text-white':'bg-white/50'} mt-1 p-2 rounded-md backdrop-blur-sm border border-white/30`} onClick={() => completedTodo(todo.id)}>
                     {todo.completed && <FaCheck size={12} />}
                   </button>
                   <div className="">
