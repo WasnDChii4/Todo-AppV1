@@ -52,9 +52,9 @@ export default function Todo() {
             className="text-blue-800 flex-1 p-4 py-3 bg-white/50 backdrop-blur-sm focus:outline-none border-r border-white/30" placeholder="Enter new task..." type="text"
             onKeyPress={(e) => e.key === 'Enter' && addTodo()}
           />
-        <button className="bg-blue-500/80 hover:bg-blue-700/80 text-white px-4 py-3 backdrop-blur-sm transition flex items-center justify-center" onClick={addTodo}>
-          <FaPlus />
-        </button>
+          <button className="bg-blue-500/80 hover:bg-blue-700/80 text-white px-4 py-3 backdrop-blur-sm transition flex items-center justify-center" onClick={addTodo}>
+            <FaPlus />
+          </button>
         </div>
       </div>
 
