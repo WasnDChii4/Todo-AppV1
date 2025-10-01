@@ -3,7 +3,7 @@ import {FaPlus, FaTrash, FaCheck} from "react-icons/fa";
 
 export default function Todo() {
   const [todos, setTodos] = useState([
-    {id: 1, text: 'Learning Todo App V1', time: '10.00 PM', completed: false}
+    {id: 1, text: 'Learning todo pp V1', time: '10.00 PM', completed: false}
   ])
   const [newTodo, setNewTodo] = useState('')
 
